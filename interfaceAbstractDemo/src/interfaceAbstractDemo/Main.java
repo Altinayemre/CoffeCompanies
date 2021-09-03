@@ -14,7 +14,7 @@ public class Main {
 		BaseCustomerService baseCustomerService = new StarbucksCustomerManager(new MernisServiceAdapter()); 
 		
 		//you can try
-		baseCustomerService.save(new Customer(1,"Emre","Altýnay","12345678900",LocalDate.of(1000,01,10)));
+		baseCustomerService.save(new Customer(1,"Emre","Altinay","12345678900",LocalDate.of(1000,01,10)));
 	}
 
 }
